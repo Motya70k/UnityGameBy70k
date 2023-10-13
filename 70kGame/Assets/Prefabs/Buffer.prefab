@@ -45,5 +45,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeSnow: 1
-  FillTime: 0.1
+  FillTime: 0.2
   SnowMap: {fileID: 8400000, guid: 2d373aff91d2ecc40a61e87b902acb50, type: 2}
