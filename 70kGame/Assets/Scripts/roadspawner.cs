@@ -5,16 +5,16 @@ using UnityEngine;
 public class roadspawner : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _roads;
-    [SerializeField] private float _roadLenth = 20;
+    [SerializeField] private float _roadLenth;
     private GameObject _road;
 
-    void Start()
+    private void Start()
     {
-        _road = Instantiate(_roads[Random.Range(0, _roads.Count - 1)], -transform.position, Quaternion.identity);
+        _road = Instantiate(_roads[Random.Range(0, _roads.Count - 1)], transform.position, Quaternion.identity);
     }
 
 
-    void Update()
+    private void Update()
     {
 
     }

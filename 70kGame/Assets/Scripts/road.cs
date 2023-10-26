@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class road : MonoBehaviour
+public class Road : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
@@ -25,6 +25,6 @@ public class road : MonoBehaviour
 
     private void Move()
     {
-        transform.Translate(transform.forward * _speed * Time.fixedDeltaTime);
+        transform.Translate(-transform.forward * _speed * Time.fixedDeltaTime);
     }
 }
