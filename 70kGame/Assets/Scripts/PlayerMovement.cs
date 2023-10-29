@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
     {
         horInput = Input.GetAxis("Horizontal");
 
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
-        transform.Rotate(Vector3.up * turnSpeed * Time.deltaTime * horInput);
+        transform.Translate(Vector2.up * Time.deltaTime * speed);
+        transform.Rotate(Vector2.down * turnSpeed * Time.deltaTime * horInput);
 
     }
 }
