@@ -1588,7 +1588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5777160818972219307, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
       propertyPath: SecondsToRestore
-      value: 2
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5777160818972219307, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
       propertyPath: Tires.Array.size
@@ -6229,13 +6229,34 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!4 &1495233911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 78549621494819506, guid: 9a8d8aa60d8524540b8c8b7a77eb5834, type: 3}
   m_PrefabInstance: {fileID: 2058022055}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1495233912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495233908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.46152455, y: 0.3420582, z: 2.7392952}
+  m_Center: {x: -0.019491762, y: -0.13628252, z: 0.11499035}
 --- !u!1 &1499877443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 12510ac0a06d07348a3dd8230b24ea15, type: 3}
@@ -8174,7 +8195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 78549621494819506, guid: 9a8d8aa60d8524540b8c8b7a77eb5834, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.65
+      value: 0.579
       objectReference: {fileID: 0}
     - target: {fileID: 78549621494819506, guid: 9a8d8aa60d8524540b8c8b7a77eb5834, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8229,6 +8250,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2704659338849054574, guid: 9a8d8aa60d8524540b8c8b7a77eb5834, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1495233909}
+    - targetCorrespondingSourceObject: {fileID: 2704659338849054574, guid: 9a8d8aa60d8524540b8c8b7a77eb5834, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1495233912}
     - targetCorrespondingSourceObject: {fileID: 285825969974789628, guid: 9a8d8aa60d8524540b8c8b7a77eb5834, type: 3}
       insertIndex: -1
       addedObject: {fileID: 971877466}
@@ -8757,7 +8781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3668383003190711828, guid: b4cc864fc9222d34a9a5d653bb60f3fa, type: 3}
       propertyPath: SecondsToRestore
-      value: 2
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3668383003190711828, guid: b4cc864fc9222d34a9a5d653bb60f3fa, type: 3}
       propertyPath: Tires.Array.size
@@ -8916,7 +8940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5777160818972219307, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
       propertyPath: SecondsToRestore
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5777160818972219307, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
       propertyPath: Tires.Array.size
@@ -9084,7 +9108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6126678941938638350, guid: e40620412a8f53448b756c6ef4e157db, type: 3}
       propertyPath: SecondsToRestore
-      value: 2
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6126678941938638350, guid: e40620412a8f53448b756c6ef4e157db, type: 3}
       propertyPath: Tires.Array.size
