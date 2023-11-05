@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16343 MB
+OS: 'Windows 10  (10.0.19044) 64bit IoTEnterpriseS' Language: 'ru' Physical Memory: 8091 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\2022.3.10f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Git/70К/UnityGameBy70k/70kGame
+C:/UnityGameBy70k/70kGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51219
-Successfully changed project path to: D:/Git/70К/UnityGameBy70k/70kGame
-D:/Git/70К/UnityGameBy70k/70kGame
+60266
+Successfully changed project path to: C:/UnityGameBy70k/70kGame
+C:/UnityGameBy70k/70kGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,68 @@ D:/Git/70К/UnityGameBy70k/70kGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2492] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 673838103 [EditorId] 673838103 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JV4MQ3E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10032] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 2427708931 [EditorId] 2427708931 [Version] 1048832 [Id] WindowsEditor(7,Matvey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2492] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 673838103 [EditorId] 673838103 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JV4MQ3E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10032] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 2427708931 [EditorId] 2427708931 [Version] 1048832 [Id] WindowsEditor(7,Matvey) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 49.84 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 60.96 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
-[Subsystems] Discovering subsystems at path D:/Unity/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Git/70К/UnityGameBy70k/70kGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityGameBy70k/70kGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
     Vendor:   NVIDIA
-    VRAM:     6044 MB
-    Driver:   31.0.15.4601
+    VRAM:     2006 MB
+    Driver:   31.0.15.3623
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
-Mono path[0] = 'D:/Unity/2022.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014402 seconds.
-- Loaded All Assemblies, in  1.012 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022319 seconds.
+- Loaded All Assemblies, in  1.117 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.786 seconds
-Domain Reload Profiling: 1798ms
-	BeginReloadAssembly (299ms)
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1968ms
+	BeginReloadAssembly (345ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (109ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (160ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (298ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (348ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (407ms)
-			TypeCache.Refresh (400ms)
-				TypeCache.ScanAssembly (366ms)
+		AnalyzeDomain (502ms)
+			TypeCache.Refresh (500ms)
+				TypeCache.ScanAssembly (464ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (787ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (852ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (623ms)
+		SetupLoadedEditorAssemblies (578ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (426ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +118,8 @@ Domain Reload Profiling: 1798ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.633 seconds
-Refreshing native plugins compatible for Editor in 18.58 ms, found 12 plugins.
+- Loaded All Assemblies, in  3.090 seconds
+Refreshing native plugins compatible for Editor in 17.75 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,703 +127,1336 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.739 seconds
-Domain Reload Profiling: 5380ms
-	BeginReloadAssembly (428ms)
+- Finished resetting the current domain, in  2.149 seconds
+Domain Reload Profiling: 5240ms
+	BeginReloadAssembly (395ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (101ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (148ms)
-	LoadAllAssembliesAndSetupDomain (930ms)
-		LoadAssemblies (589ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (2381ms)
+		LoadAssemblies (1840ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (615ms)
-			TypeCache.Refresh (517ms)
-				TypeCache.ScanAssembly (482ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (39ms)
-	FinalizeReload (3745ms)
+		AnalyzeDomain (780ms)
+			TypeCache.Refresh (675ms)
+				TypeCache.ScanAssembly (615ms)
+			ScanForSourceGeneratedMonoScriptInfo (76ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2152ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1958ms)
+		SetupLoadedEditorAssemblies (1370ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (122ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (274ms)
-			ProcessInitializeOnLoadAttributes (1413ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (890ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 22.15 ms, found 12 plugins.
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 26.04 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6653 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 245 unused Assets / (13.4 MB). Loaded Objects now: 6957.
-Memory consumption went from 286.0 MB to 272.6 MB.
-Total: 21.664100 ms (FindLiveObjects: 0.643200 ms CreateObjectMapping: 4.134400 ms MarkObjects: 6.262800 ms  DeleteObjects: 10.622600 ms)
+Unloading 5654 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 101 unused Assets / (1.5 MB). Loaded Objects now: 6078.
+Memory consumption went from 208.3 MB to 206.8 MB.
+Total: 10.486200 ms (FindLiveObjects: 1.095600 ms CreateObjectMapping: 0.894500 ms MarkObjects: 7.054900 ms  DeleteObjects: 1.439600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 143816.556715 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0179f928fb5ca2370affa6dcd41a3079') in 0.012128 seconds
+  Time since last request: 575.811282 seconds.
+  path: Assets/SandalStudio/Snow FX/Demo Scene
+  artifactKey: Guid(b1ef1ea64ec1c934b93b9bacbee8c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Demo Scene using Guid(b1ef1ea64ec1c934b93b9bacbee8c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13176ec049d20e06a0e2ac66466b10cc') in 0.004650 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(f31708aa48f105b4987c9bf32d608818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(f31708aa48f105b4987c9bf32d608818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb2859dc0114146d1f42ca965aa31f1') in 0.219819 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/SandalStudio/Snow FX
+  artifactKey: Guid(45e1c1dbfa37afd4891dfde22f601f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX using Guid(45e1c1dbfa37afd4891dfde22f601f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0cd05b33162573bd2b9d772cb31351') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SandalStudio/Snow FX/Demo Scene/Demo.mat
+  artifactKey: Guid(04a9f76fb506a654ebd3a93d0822e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Demo Scene/Demo.mat using Guid(04a9f76fb506a654ebd3a93d0822e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870e4b6e990b72d35a4788d5b05f06e0') in 0.490565 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Scenes/MenuScene.unity
-  artifactKey: Guid(83ca484c0e372144385539e24ea3bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MenuScene.unity using Guid(83ca484c0e372144385539e24ea3bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305455857435c0b16ad189bf6f3f845d') in 0.002726 seconds
+  Time since last request: 0.001822 seconds.
+  path: Assets/Scenes/_1Scene.unity
+  artifactKey: Guid(b5c93d1e6cee0ee40a0d1f31fd2f0341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/_1Scene.unity using Guid(b5c93d1e6cee0ee40a0d1f31fd2f0341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a60aaf209bd2f5ec0a8a8800d75ef') in 0.009374 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/SandalStudio/Snow FX/Demo Scene/PP.asset
+  artifactKey: Guid(fd193ed1eb5656346ae81ce5647712a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Demo Scene/PP.asset using Guid(fd193ed1eb5656346ae81ce5647712a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e8c75d5a4b03bbbbd2ca6f936c276b') in 0.002571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 26.25 ms, found 12 plugins.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.38 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 125 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 128 unused Assets / (13.8 MB). Loaded Objects now: 6959.
-Memory consumption went from 141.6 MB to 127.8 MB.
-Total: 19.022700 ms (FindLiveObjects: 1.278300 ms CreateObjectMapping: 0.675300 ms MarkObjects: 5.817400 ms  DeleteObjects: 11.250700 ms)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (1.5 MB). Loaded Objects now: 6120.
+Memory consumption went from 101.9 MB to 100.5 MB.
+Total: 9.585200 ms (FindLiveObjects: 0.671400 ms CreateObjectMapping: 1.633800 ms MarkObjects: 6.448700 ms  DeleteObjects: 0.830200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.932231 seconds.
-  path: Assets/Scenes/_1Scene.unity
-  artifactKey: Guid(b5c93d1e6cee0ee40a0d1f31fd2f0341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/_1Scene.unity using Guid(b5c93d1e6cee0ee40a0d1f31fd2f0341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7cde083b49be25cba214b0065f7fc8') in 0.017529 seconds
+  Time since last request: 36.088613 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials
+  artifactKey: Guid(bb84a017d968f2241a09902b965e4b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials using Guid(bb84a017d968f2241a09902b965e4b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57235ba6190b85d83816bece7d1dbdba') in 0.009853 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 48.834318 seconds.
-  path: Assets/Scenes/MenuScene.unity
-  artifactKey: Guid(83ca484c0e372144385539e24ea3bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MenuScene.unity using Guid(83ca484c0e372144385539e24ea3bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5882d1e2fb5f63af9d5adabc47ec8f11') in 0.000822 seconds
+  Time since last request: 5.382269 seconds.
+  path: Assets/SandalStudio/Snow FX/Demo Scene/0_Scene.unity
+  artifactKey: Guid(9ccfea8a8475286429c69b5211fdf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Demo Scene/0_Scene.unity using Guid(9ccfea8a8475286429c69b5211fdf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23970b2c9a202f31f0ff752c94e37de4') in 0.000556 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.823368 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow.mat
+  artifactKey: Guid(cdcf97f9494fdd047bc33cbf9dfb9a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow.mat using Guid(cdcf97f9494fdd047bc33cbf9dfb9a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3f1842273d86308c1cc5b10134f0b5') in 0.010782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 3.mat
+  artifactKey: Guid(0aea4003291c1c74dbace313f8c76839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 3.mat using Guid(0aea4003291c1c74dbace313f8c76839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47517a14a60aafa23bff07449f5d77e') in 0.013619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 5.mat
+  artifactKey: Guid(83514a7fb5b47db43a697589fed8499b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 5.mat using Guid(83514a7fb5b47db43a697589fed8499b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71e5e1a80d84dd6bfbac61d5038ff4e') in 0.010260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 6.mat
+  artifactKey: Guid(18b35371b7236e04cb6bc882624398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 6.mat using Guid(18b35371b7236e04cb6bc882624398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362053c0ef58daa80be933c116b9cb3a') in 0.008101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 2.mat
+  artifactKey: Guid(34a41b1911a8f3849a66a2a3270318ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 2.mat using Guid(34a41b1911a8f3849a66a2a3270318ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247759ce726ed030a56dde29060d3b44') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 4.mat
+  artifactKey: Guid(344b796baefee94469994031123571d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 4.mat using Guid(344b796baefee94469994031123571d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb0a89dd6171dec9bc3c986bc46cdc4') in 0.009417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 7.mat
+  artifactKey: Guid(da0d2d4aef03c9842b1db1879a5ec6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 7.mat using Guid(da0d2d4aef03c9842b1db1879a5ec6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04998128d1b18068343072a7de40086') in 0.010093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 10.mat
+  artifactKey: Guid(db362b5a09adca649b2fbf28f9775c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 10.mat using Guid(db362b5a09adca649b2fbf28f9775c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8aac68d7abe66c65eef4625775bfec1') in 0.009246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 8.mat
+  artifactKey: Guid(c65a035c4fa7b0a4db8562ecb6df106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 8.mat using Guid(c65a035c4fa7b0a4db8562ecb6df106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32aab9725dcab19c1ce4646e0ededcd1') in 0.008642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 1.mat
+  artifactKey: Guid(8fcf82d7c5c161e43bfef855e4e1c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 1.mat using Guid(8fcf82d7c5c161e43bfef855e4e1c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849aa459fadf2768612d2cce929fb8c8') in 0.007838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.156216 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 9.mat
+  artifactKey: Guid(e0fc05989d7d7654c922af379a6558cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 9.mat using Guid(e0fc05989d7d7654c922af379a6558cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94b5700b879ccccf45145f2f6be423a') in 0.010522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.434355 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 11.mat
+  artifactKey: Guid(4f2222e339067ba469819da609896198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 11.mat using Guid(4f2222e339067ba469819da609896198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa596705a3b52acc92192cd56540ba6f') in 0.008113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.221732 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 12.mat
+  artifactKey: Guid(6393ed5be2c4cc649b63adecf123555a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 12.mat using Guid(6393ed5be2c4cc649b63adecf123555a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9787ecacd5842b01b624c4d728db17') in 0.007904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.335648 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 11.mat
+  artifactKey: Guid(aeeeaf52b7d570a46a4e57eb1c3ba56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 11.mat using Guid(aeeeaf52b7d570a46a4e57eb1c3ba56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea92c53ab661061ff56b93c76384998') in 0.009328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.755547 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 12.mat
+  artifactKey: Guid(304109528682dc74ca454eeef5c86361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 12.mat using Guid(304109528682dc74ca454eeef5c86361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817aca7b76b2196246975c424cb389ba') in 0.007925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.156347 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 13.mat
+  artifactKey: Guid(f873e69a0447d134a8284c4f91557144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 13.mat using Guid(f873e69a0447d134a8284c4f91557144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea52d0d4df993f683244ddbdb1092e58') in 0.009224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.103674 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 14.mat
+  artifactKey: Guid(1434a123692d6344f8e27da54ddea8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 14.mat using Guid(1434a123692d6344f8e27da54ddea8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851ea6ead885e3f433bfc7d2df48d50d') in 0.007745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.801170 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 15.mat
+  artifactKey: Guid(c0f4d26d16ab91a48a7031c905efc9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 15.mat using Guid(c0f4d26d16ab91a48a7031c905efc9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374f13229b18eb7dac963496929e51eb') in 0.010081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.870417 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 16.mat
+  artifactKey: Guid(0f1351fd5b652c24599092ddd8db399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 16.mat using Guid(0f1351fd5b652c24599092ddd8db399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0721f15eeeb32c161e4c48cd11bb2b9') in 0.011746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.681592 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 17.mat
+  artifactKey: Guid(0744a28b9d449c3499855428b4e7d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 17.mat using Guid(0744a28b9d449c3499855428b4e7d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc80be0f3426eb590c03bc2abb0b312') in 0.017256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.959551 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 18.mat
+  artifactKey: Guid(4ce77a21be6ac3345bcafda5d4f8d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 18.mat using Guid(4ce77a21be6ac3345bcafda5d4f8d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd4a3c8c0f492852ebfcb3ea9345de7') in 0.010108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.747876 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 19.mat
+  artifactKey: Guid(72468665c2356f146a1f986f59f1136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 19.mat using Guid(72468665c2356f146a1f986f59f1136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a235526cd295305c7bd354cd21df9e') in 0.009351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.941857 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 20.mat
+  artifactKey: Guid(a3b46c1f33df5fd4d8cb531e6824c634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 20.mat using Guid(a3b46c1f33df5fd4d8cb531e6824c634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb13840c31fdeb8b60b4a76370da1c1') in 0.008657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.585750 seconds.
+  path: Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 21.mat
+  artifactKey: Guid(762157e60497c9342b6fec3dc3d16865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Materials/SandalStudio_Snow 21.mat using Guid(762157e60497c9342b6fec3dc3d16865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58ce6baa90dfe4b68242b5156773abf') in 0.009878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.971615 seconds.
+  path: Assets/Materials/blinn2SG_0 1.mat
+  artifactKey: Guid(1e197249ce4022d4cb22413c88698ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/blinn2SG_0 1.mat using Guid(1e197249ce4022d4cb22413c88698ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1ad854cfce0d98e7ed84f560b57fc9') in 0.352768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/SnowPlane.mat
+  artifactKey: Guid(ae72cb27c4344b7448faeebae1e6a96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SnowPlane.mat using Guid(ae72cb27c4344b7448faeebae1e6a96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a12d861ccf76fcf44564b12668c7450') in 0.207945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Skybox 21.mat
+  artifactKey: Guid(6e44b5674ccd24747916cc23c69a12a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox 21.mat using Guid(6e44b5674ccd24747916cc23c69a12a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e89ad41dad1a3742e508ae71beafba7') in 0.037958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/tree_diffuse 1.mat
+  artifactKey: Guid(33a867a793298f14dbe1046a3401754b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tree_diffuse 1.mat using Guid(33a867a793298f14dbe1046a3401754b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa12ac3bdd90b505b7584b113626def') in 0.009883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Snow 1.mat
+  artifactKey: Guid(06701558cf0c0a643af25b3e1859e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Snow 1.mat using Guid(06701558cf0c0a643af25b3e1859e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d33b010645df0d4fd6ee96b50efff91') in 0.007516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Granite 1.mat
+  artifactKey: Guid(261f6ab7d90953b49812f36f241851ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Granite 1.mat using Guid(261f6ab7d90953b49812f36f241851ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f61e759fe9f50f7b3f908849739bed') in 0.007933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(932cc6c18a281624e9e05750ab634346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(932cc6c18a281624e9e05750ab634346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eea0fb32e3aa2dc21cd25aa9a01dacd') in 0.000495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materials/Free_Tree 1.mat
+  artifactKey: Guid(8b1cc6912f63ae840b6274e468962798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Free_Tree 1.mat using Guid(8b1cc6912f63ae840b6274e468962798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9933668c6e7611e464dd8992b59b884') in 0.116978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.491495 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 1.prefab
+  artifactKey: Guid(038ef49d9b322bb44b519fa4bf173a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 1.prefab using Guid(038ef49d9b322bb44b519fa4bf173a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef7a643077232be5822acc2ef6b1ca3') in 0.055026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 3.prefab
+  artifactKey: Guid(2a11abeb3efb52545997efdc6822cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 3.prefab using Guid(2a11abeb3efb52545997efdc6822cc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8586d50864d82f6b05b4230d18f2afc') in 0.018848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 10.prefab
+  artifactKey: Guid(28436c05f7413c34c96308bd6fb1f460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 10.prefab using Guid(28436c05f7413c34c96308bd6fb1f460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6979fa9c354d2dd15ac53a5b0d33ab') in 0.012755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 8.prefab
+  artifactKey: Guid(5aea97337ac5dd34a8228e36ff69b53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 8.prefab using Guid(5aea97337ac5dd34a8228e36ff69b53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869874cdee7f413985b152e71366fb80') in 0.009331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 2.prefab
+  artifactKey: Guid(8afc364bd51d67c40b2da46dafc7d803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 2.prefab using Guid(8afc364bd51d67c40b2da46dafc7d803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcdfb1cefb61ddb3ab2dc69c1a6483c') in 0.009951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 9.prefab
+  artifactKey: Guid(52aa68a891293e141a7f6a1e33d8f865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 9.prefab using Guid(52aa68a891293e141a7f6a1e33d8f865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35803540a8e370321a209c563a478b32') in 0.011726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 7.prefab
+  artifactKey: Guid(97bdab63d45f3a8499d727bb9887c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 7.prefab using Guid(97bdab63d45f3a8499d727bb9887c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d63e0c5625b7480c5fb390b2aaffd9') in 0.031887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 5.prefab
+  artifactKey: Guid(415a18720feb6a746944b7a9ba471e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 5.prefab using Guid(415a18720feb6a746944b7a9ba471e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa6011a601dc5a1e4b3502cf3ae9d5b') in 0.011758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 6.prefab
+  artifactKey: Guid(78c24fc27f198034eaa13262ba74b3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 6.prefab using Guid(78c24fc27f198034eaa13262ba74b3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f4b11e7600cbf91f2dc68213053f1e') in 0.009366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 4.prefab
+  artifactKey: Guid(61d6efd03142a874695353f7b8de82ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 4.prefab using Guid(61d6efd03142a874695353f7b8de82ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0983c6f33e648f279a0d9748fce453af') in 0.034187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.879483 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 11.prefab
+  artifactKey: Guid(e721257ec188a284d8ed2ad45a20cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 11.prefab using Guid(e721257ec188a284d8ed2ad45a20cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b01bd59dacabc2363c484529e9d3a36') in 0.009758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.119712 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 12.prefab
+  artifactKey: Guid(0f5654fd235d5b348bf72af156e93c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 12.prefab using Guid(0f5654fd235d5b348bf72af156e93c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079a0d018ca3097ce4af92b1aad405ae') in 0.009859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.149394 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 13.prefab
+  artifactKey: Guid(e6e092c8525b23246b6517291f22d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 13.prefab using Guid(e6e092c8525b23246b6517291f22d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4574e5e9c7c9d1faa0b45b01a27d568b') in 0.008713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.706940 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 14.prefab
+  artifactKey: Guid(1ab79aa4a5a9fed43875d6befdb703fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 14.prefab using Guid(1ab79aa4a5a9fed43875d6befdb703fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce342d48178a244c155c3f58fee0a72f') in 0.009326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.666421 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 15.prefab
+  artifactKey: Guid(ace30c9d65e66ff438f10d0a8ca58a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 15.prefab using Guid(ace30c9d65e66ff438f10d0a8ca58a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f5f86689494ddaf2d7ea3fbb1bd683') in 0.009653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.656278 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 16.prefab
+  artifactKey: Guid(5b1df9f15ce181146ad2c3ca7f5f9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 16.prefab using Guid(5b1df9f15ce181146ad2c3ca7f5f9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d623c7ce55206480e99358c7f9be42') in 0.009916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.691167 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 17.prefab
+  artifactKey: Guid(ca80f2ce53ed1c74bbde80c613f49678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 17.prefab using Guid(ca80f2ce53ed1c74bbde80c613f49678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfd6293a334f1dc6b1c8bba9a42a9a5') in 0.009791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.719595 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 18.prefab
+  artifactKey: Guid(97301ffc35729ca4ea92914735783d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 18.prefab using Guid(97301ffc35729ca4ea92914735783d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b550c61f089710b6675d5320c93f6727') in 0.011662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.692243 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 19.prefab
+  artifactKey: Guid(3386cbb9824eaec479e91b9dea786db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 19.prefab using Guid(3386cbb9824eaec479e91b9dea786db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3986b3310cb1f3ed14e3d79a31700c') in 0.012186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.783045 seconds.
+  path: Assets/SandalStudio/Snow FX/Props/Snow 20.prefab
+  artifactKey: Guid(be9090330c78ab345bda051b78aa1199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Props/Snow 20.prefab using Guid(be9090330c78ab345bda051b78aa1199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2b367a09054a160bacda1da63c98ac') in 0.011799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.795531 seconds.
+  path: Assets/Prefabs/Cube (1).prefab
+  artifactKey: Guid(4986afbfc6964494f835200bdd294b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube (1).prefab using Guid(4986afbfc6964494f835200bdd294b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0983a3cddf9cbcf3a74c5df536267ed') in 0.009129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Road(1).prefab
+  artifactKey: Guid(e40620412a8f53448b756c6ef4e157db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road(1).prefab using Guid(e40620412a8f53448b756c6ef4e157db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38907c7665c0680d316805aef14703f') in 0.020836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Prefabs/Road.prefab
+  artifactKey: Guid(b4cc864fc9222d34a9a5d653bb60f3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road.prefab using Guid(b4cc864fc9222d34a9a5d653bb60f3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f751d0a2b4545f319fe444364bb005') in 0.020339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Intermediate_Advanced_Snowboard 1.prefab
+  artifactKey: Guid(9a8d8aa60d8524540b8c8b7a77eb5834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Intermediate_Advanced_Snowboard 1.prefab using Guid(9a8d8aa60d8524540b8c8b7a77eb5834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc682c2f706cc8599e2ccdbf9cd0b2d') in 0.015139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Road(2).prefab
+  artifactKey: Guid(f086fdc5ed4ad0344a74d8028f08fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road(2).prefab using Guid(f086fdc5ed4ad0344a74d8028f08fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833a1ad66996c4f4576fd5592872c506') in 0.017194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Fir_Tree 1.prefab
+  artifactKey: Guid(21eae4bd03bf144419fe18d23aba2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fir_Tree 1.prefab using Guid(21eae4bd03bf144419fe18d23aba2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2cfbaac200971e0b7c4e1d1380cec9') in 0.004388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Road(3).prefab
+  artifactKey: Guid(61c99d96f7d95c74aa9f5257ac9034dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Road(3).prefab using Guid(61c99d96f7d95c74aa9f5257ac9034dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3cf0cdd8bcc081dca12043b055d88') in 0.020162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 6.424347 seconds.
+  path: Assets/SandalStudio/Snow FX/Shaider/Snow FX.shader
+  artifactKey: Guid(6fc117e00d45e2941936e7479375f01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Shaider/Snow FX.shader using Guid(6fc117e00d45e2941936e7479375f01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c16615b4614691f10368dcab4d3ea') in 0.000971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.067129 seconds.
+  path: Assets/SandalStudio/Snow FX/Shaider/Snow FX 1.shader
+  artifactKey: Guid(638fda62d547f8e49b5c704631c0e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandalStudio/Snow FX/Shaider/Snow FX 1.shader using Guid(638fda62d547f8e49b5c704631c0e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940ecccf71cff6320ac982fee7f86cee') in 0.001494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.110650 seconds.
+  path: Assets/Shaders/20.back 1.tif
+  artifactKey: Guid(3de66a16abfca334cbec0ae53af97949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/20.back 1.tif using Guid(3de66a16abfca334cbec0ae53af97949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9894cea62057297b41d1e6093eaaff93') in 0.036705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Shaders/SnowHeightMapUpdate.mat
+  artifactKey: Guid(ec8c4c107f49fad4f977e7a1b8873a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/SnowHeightMapUpdate.mat using Guid(ec8c4c107f49fad4f977e7a1b8873a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaf1e47da2e046848b5e857fbb8b830') in 0.014102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Shaders/20.left 1.tif
+  artifactKey: Guid(3b5abc5ecf406de41a7f1bee681b7414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/20.left 1.tif using Guid(3b5abc5ecf406de41a7f1bee681b7414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dad2898655f55fd64850769ebfca40') in 0.024379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Shaders/20.right 1.tif
+  artifactKey: Guid(3ce5866a4fae3744f84f06bf089429f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/20.right 1.tif using Guid(3ce5866a4fae3744f84f06bf089429f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bf7b1c7e1dcae723e0e05d3467315f') in 0.022910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Shaders/20.top 1.tif
+  artifactKey: Guid(43ae4f089c01cca49888798572092419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/20.top 1.tif using Guid(43ae4f089c01cca49888798572092419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba66c0ce26053ec93d17af4fcd989e83') in 0.025100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Shaders/20.bottom 1.tif
+  artifactKey: Guid(8b42f5b36c309554394f4ab1c90d9c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/20.bottom 1.tif using Guid(8b42f5b36c309554394f4ab1c90d9c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e5225489bc8a05b7f287e7213c5f63') in 0.019779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Shaders/20.front 1.tif
+  artifactKey: Guid(c77517ab104565944a8f7fa237ade888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/20.front 1.tif using Guid(c77517ab104565944a8f7fa237ade888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960f9130f8931e165b049564a95e5013') in 0.022661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.451073 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f31708aa48f105b4987c9bf32d608818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f31708aa48f105b4987c9bf32d608818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb2859dc0114146d1f42ca965aa31f1') in 0.017812 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.948703 seconds.
+  path: Assets/Buttons/buttons.png
+  artifactKey: Guid(9d6738d80b1a977408aa93f3e5b08f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/buttons.png using Guid(9d6738d80b1a977408aa93f3e5b08f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871848430529c1c9fe0dd99d2e2b203d') in 0.117535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Buttons/buttons.psd
+  artifactKey: Guid(feb7f06d7faf71543b5d62cfec54ed7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/buttons.psd using Guid(feb7f06d7faf71543b5d62cfec54ed7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721e356d274001d9d40799ec09fc576a') in 0.032142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Buttons/buttons_Back.png
+  artifactKey: Guid(a3d7e7cfe6097ac49970377cbf78158f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/buttons_Back.png using Guid(a3d7e7cfe6097ac49970377cbf78158f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ff584568f23952821199a96c261567') in 0.053517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.527 seconds
-Refreshing native plugins compatible for Editor in 7.35 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.734 seconds
+Refreshing native plugins compatible for Editor in 10.21 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.269 seconds
-Domain Reload Profiling: 2796ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  2.403 seconds
+Domain Reload Profiling: 3127ms
+	BeginReloadAssembly (233ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (331ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (483ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
+		AnalyzeDomain (26ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2270ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2404ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (971ms)
+		SetupLoadedEditorAssemblies (838ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (156ms)
-			ProcessInitializeOnLoadAttributes (741ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 13.30 ms, found 12 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 15.05 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 6962.
-Memory consumption went from 239.1 MB to 225.7 MB.
-Total: 14.580100 ms (FindLiveObjects: 3.257100 ms CreateObjectMapping: 1.444300 ms MarkObjects: 5.886400 ms  DeleteObjects: 3.990700 ms)
+Unloading 5545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.9 MB). Loaded Objects now: 6129.
+Memory consumption went from 189.0 MB to 187.0 MB.
+Total: 10.171900 ms (FindLiveObjects: 0.741500 ms CreateObjectMapping: 1.957500 ms MarkObjects: 6.179400 ms  DeleteObjects: 1.292300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135.830870 seconds.
+  path: Assets/Prefabs/Snow 11.prefab
+  artifactKey: Guid(e721257ec188a284d8ed2ad45a20cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 11.prefab using Guid(e721257ec188a284d8ed2ad45a20cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1f6510e858c34a244b4ca4c08caf86') in 0.109647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Snow 19.prefab
+  artifactKey: Guid(3386cbb9824eaec479e91b9dea786db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 19.prefab using Guid(3386cbb9824eaec479e91b9dea786db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4cd048ae4b9ba1cb472f0aa9115d5d') in 0.010028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Snow 13.prefab
+  artifactKey: Guid(e6e092c8525b23246b6517291f22d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 13.prefab using Guid(e6e092c8525b23246b6517291f22d6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d219064475551db8243187d5d000c71') in 0.009544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Snow 18.prefab
+  artifactKey: Guid(97301ffc35729ca4ea92914735783d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 18.prefab using Guid(97301ffc35729ca4ea92914735783d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23fa76c541bea11d3406576c8e858fa') in 0.009732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Snow 20.prefab
+  artifactKey: Guid(be9090330c78ab345bda051b78aa1199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 20.prefab using Guid(be9090330c78ab345bda051b78aa1199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96efe35e2fd8c5e69493a7069571b9ad') in 0.009562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Snow 15.prefab
+  artifactKey: Guid(ace30c9d65e66ff438f10d0a8ca58a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 15.prefab using Guid(ace30c9d65e66ff438f10d0a8ca58a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae2eda435178afc6b4b9195244bc37f') in 0.010349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Snow 12.prefab
+  artifactKey: Guid(0f5654fd235d5b348bf72af156e93c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 12.prefab using Guid(0f5654fd235d5b348bf72af156e93c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7dad972b8103c998ca12fd1020696f') in 0.008498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001003 seconds.
+  path: Assets/Prefabs/Snow 14.prefab
+  artifactKey: Guid(1ab79aa4a5a9fed43875d6befdb703fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 14.prefab using Guid(1ab79aa4a5a9fed43875d6befdb703fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d57a906b9264a307e7b293db5f96ccb') in 0.009098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Snow 16.prefab
+  artifactKey: Guid(5b1df9f15ce181146ad2c3ca7f5f9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 16.prefab using Guid(5b1df9f15ce181146ad2c3ca7f5f9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15165311e8cfa19d4bc38e0477f9b59') in 0.008150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Snow 17.prefab
+  artifactKey: Guid(ca80f2ce53ed1c74bbde80c613f49678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snow 17.prefab using Guid(ca80f2ce53ed1c74bbde80c613f49678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd348b1149604096302c4360cae5ac15f') in 0.009051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 10.60 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.697 seconds
+Domain Reload Profiling: 2348ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (772ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.66 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.5 MB). Loaded Objects now: 6132.
+Memory consumption went from 188.5 MB to 187.0 MB.
+Total: 5.096800 ms (FindLiveObjects: 0.902200 ms CreateObjectMapping: 0.580400 ms MarkObjects: 3.029800 ms  DeleteObjects: 0.583200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.538773 seconds.
-  path: Assets/SandalStudio
-  artifactKey: Guid(a539e7ec8e2dd564c8d894cb7f988338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SandalStudio using Guid(a539e7ec8e2dd564c8d894cb7f988338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f144b3b11965c7ea1f4da990afdd5e79') in 0.002817 seconds
+  Time since last request: 26.346425 seconds.
+  path: Assets/Meshes/Fir_Tree 1.fbx
+  artifactKey: Guid(12510ac0a06d07348a3dd8230b24ea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Fir_Tree 1.fbx using Guid(12510ac0a06d07348a3dd8230b24ea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68164973f777997d65220a5c63c74a4d') in 0.149766 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 2.558258 seconds.
-  path: Assets/SandalStudio/Snow FX
-  artifactKey: Guid(45e1c1dbfa37afd4891dfde22f601f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SandalStudio/Snow FX using Guid(45e1c1dbfa37afd4891dfde22f601f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0cd05b33162573bd2b9d772cb31351') in 0.001468 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Meshes/Object_0_0_0 1.asset
+  artifactKey: Guid(83c825db9ff21894fb900e0b1cef29ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Object_0_0_0 1.asset using Guid(83c825db9ff21894fb900e0b1cef29ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3b02cf6347046e5a795f5d46c23f5e') in 0.010683 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.646664 seconds.
-  path: Assets/SandalStudio/Snow FX/Demo Scene
-  artifactKey: Guid(b1ef1ea64ec1c934b93b9bacbee8c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SandalStudio/Snow FX/Demo Scene using Guid(b1ef1ea64ec1c934b93b9bacbee8c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13176ec049d20e06a0e2ac66466b10cc') in 0.000637 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Meshes/rocks 1.fbx
+  artifactKey: Guid(dc488eb856452f940bb661a21dd53d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/rocks 1.fbx using Guid(dc488eb856452f940bb661a21dd53d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6247bee44fcd77cb709dc4ac167ad6c') in 1.799945 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 614
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016607 seconds.
-  path: Assets/SandalStudio/Snow FX/Demo Scene/Demo.mat
-  artifactKey: Guid(04a9f76fb506a654ebd3a93d0822e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SandalStudio/Snow FX/Demo Scene/Demo.mat using Guid(04a9f76fb506a654ebd3a93d0822e13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3ae6f3ba0308fd401a69692e05a7a2') in 0.499840 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/SandalStudio_Snow 19.mat
+  artifactKey: Guid(72468665c2356f146a1f986f59f1136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 19.mat using Guid(72468665c2356f146a1f986f59f1136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38266ac43b86c04826389e81d9fe9db1') in 0.029867 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/SandalStudio/Snow FX/Demo Scene/PP.asset
-  artifactKey: Guid(fd193ed1eb5656346ae81ce5647712a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SandalStudio/Snow FX/Demo Scene/PP.asset using Guid(fd193ed1eb5656346ae81ce5647712a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e8c75d5a4b03bbbbd2ca6f936c276b') in 0.001402 seconds
+  path: Assets/Materials/SandalStudio_Snow 14.mat
+  artifactKey: Guid(1434a123692d6344f8e27da54ddea8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 14.mat using Guid(1434a123692d6344f8e27da54ddea8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b526aa44ce39db83964816980d8104ed') in 0.008471 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.921909 seconds.
-  path: Assets/SandalStudio/Snow FX/Demo Scene/0_Scene.unity
-  artifactKey: Guid(9ccfea8a8475286429c69b5211fdf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SandalStudio/Snow FX/Demo Scene/0_Scene.unity using Guid(9ccfea8a8475286429c69b5211fdf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23970b2c9a202f31f0ff752c94e37de4') in 0.000794 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/SandalStudio_Snow 13.mat
+  artifactKey: Guid(f873e69a0447d134a8284c4f91557144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 13.mat using Guid(f873e69a0447d134a8284c4f91557144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a3ee25cd3850dae8beafdbffebb471') in 0.009122 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/SandalStudio_Snow 21.mat
+  artifactKey: Guid(762157e60497c9342b6fec3dc3d16865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 21.mat using Guid(762157e60497c9342b6fec3dc3d16865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6d3ceb506aa317dac6fc4f3af22c67') in 0.010072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/SandalStudio_Snow 18.mat
+  artifactKey: Guid(4ce77a21be6ac3345bcafda5d4f8d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 18.mat using Guid(4ce77a21be6ac3345bcafda5d4f8d4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d93687e1a12f13b1203950394bdba5') in 0.009524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/SandalStudio_Snow 12.mat
+  artifactKey: Guid(304109528682dc74ca454eeef5c86361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 12.mat using Guid(304109528682dc74ca454eeef5c86361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac663d18478f8b202d714d82fdcfc8b') in 0.009252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/SandalStudio_Snow 17.mat
+  artifactKey: Guid(0744a28b9d449c3499855428b4e7d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 17.mat using Guid(0744a28b9d449c3499855428b4e7d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c557155e981ff5045909d364a385195a') in 0.008176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/SandalStudio_Snow 11.mat
+  artifactKey: Guid(aeeeaf52b7d570a46a4e57eb1c3ba56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 11.mat using Guid(aeeeaf52b7d570a46a4e57eb1c3ba56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e47addb00c5994e501dfda0255a864') in 0.012350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/SandalStudio_Snow 20.mat
+  artifactKey: Guid(a3b46c1f33df5fd4d8cb531e6824c634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 20.mat using Guid(a3b46c1f33df5fd4d8cb531e6824c634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e29c6a4537e4eafee44e10dadc1105') in 0.012751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/SandalStudio_Snow 15.mat
+  artifactKey: Guid(c0f4d26d16ab91a48a7031c905efc9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 15.mat using Guid(c0f4d26d16ab91a48a7031c905efc9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af232282ef04fe95a2f59aa5c2fbf8ae') in 0.008064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/SandalStudio_Snow 16.mat
+  artifactKey: Guid(0f1351fd5b652c24599092ddd8db399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SandalStudio_Snow 16.mat using Guid(0f1351fd5b652c24599092ddd8db399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1c17acfa2d3f8ff5037fe084c61d14') in 0.010089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.442690 seconds.
+  path: Assets/Textures/blinn2SG_diffuse_0 3.png
+  artifactKey: Guid(09b3226775fe2944195ef979d39dd177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/blinn2SG_diffuse_0 3.png using Guid(09b3226775fe2944195ef979d39dd177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53774fa73ca40f1e126001a9b3cea6b') in 0.032330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/tree_diffuse 1.png
+  artifactKey: Guid(27772532c5021ef48a426656d741bf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/tree_diffuse 1.png using Guid(27772532c5021ef48a426656d741bf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0220450631e90df9d51805e88c0d48d2') in 0.017168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/snow-terrain_0001_01_S_N_L.png
+  artifactKey: Guid(8b60fcdbdfcdd6d4ba5afbee6353b491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/snow-terrain_0001_01_S_N_L.png using Guid(8b60fcdbdfcdd6d4ba5afbee6353b491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c255bfd780036561970fec75c39bb34f') in 0.017860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/tireprint.jpg
+  artifactKey: Guid(731c957fcf188cf428ba83dc66106c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/tireprint.jpg using Guid(731c957fcf188cf428ba83dc66106c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afdb52ce74d608474b5562465bbc911') in 0.017839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/blinn2SG_normal_2 2.png
+  artifactKey: Guid(39bf9555e9033f748b78e56b8a050817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/blinn2SG_normal_2 2.png using Guid(39bf9555e9033f748b78e56b8a050817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953d2a3244703dcf1dc6020a894ef426') in 0.033931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/blinn2SG_specularGlossiness_1 1.png
+  artifactKey: Guid(60e25d4112e21dc4286cc587232ea1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/blinn2SG_specularGlossiness_1 1.png using Guid(60e25d4112e21dc4286cc587232ea1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771ff0c7ed7a14286fbfccfbefa97bd6') in 0.022232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/SnowHeightMap.asset
+  artifactKey: Guid(01c63ea2d76585d438ff66e9f42bbdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SnowHeightMap.asset using Guid(01c63ea2d76585d438ff66e9f42bbdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156ea428585ff9f21d5b054f178181c0') in 0.023048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/snow-terrain_0001_01_S_L.jpg
+  artifactKey: Guid(4adbf1bfa0c639f42bcea05cf84d36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/snow-terrain_0001_01_S_L.jpg using Guid(4adbf1bfa0c639f42bcea05cf84d36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee25c402f7092cd9de187e3f91a60a64') in 0.018186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.157138 seconds.
+  path: Assets/Models/Rocks_Snowy_19 1.prefab
+  artifactKey: Guid(5b3cab1901937314a825d6ba2951acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rocks_Snowy_19 1.prefab using Guid(5b3cab1901937314a825d6ba2951acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe52b406b82544d7e9a335c6bd2e15ec') in 0.003800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Snowboard_hi.fbx
+  artifactKey: Guid(dd43533ef6be98e4c8566e392c334c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Snowboard_hi.fbx using Guid(dd43533ef6be98e4c8566e392c334c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6246a0e30d735194d2cee93a40fe62b6') in 0.013902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.510 seconds
-Refreshing native plugins compatible for Editor in 7.36 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.671 seconds
+Refreshing native plugins compatible for Editor in 11.02 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.270 seconds
-Domain Reload Profiling: 2780ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  2.363 seconds
+Domain Reload Profiling: 3033ms
+	BeginReloadAssembly (227ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (258ms)
-		LoadAssemblies (322ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (443ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2271ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2364ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1050ms)
+		SetupLoadedEditorAssemblies (965ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (819ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 16.89 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 7005.
-Memory consumption went from 243.6 MB to 230.2 MB.
-Total: 12.069500 ms (FindLiveObjects: 1.317500 ms CreateObjectMapping: 1.008100 ms MarkObjects: 5.008700 ms  DeleteObjects: 4.733700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.497 seconds
-Refreshing native plugins compatible for Editor in 8.07 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.768 seconds
-Domain Reload Profiling: 3265ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (249ms)
-		LoadAssemblies (312ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2769ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1017ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (162ms)
-			ProcessInitializeOnLoadAttributes (762ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (640ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Refreshing native plugins compatible for Editor in 14.28 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 7008.
-Memory consumption went from 243.6 MB to 230.2 MB.
-Total: 9.133800 ms (FindLiveObjects: 0.660200 ms CreateObjectMapping: 1.323000 ms MarkObjects: 3.717400 ms  DeleteObjects: 3.432300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 69.543034 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(6668dce0692458f448f31db3ccb858e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(6668dce0692458f448f31db3ccb858e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaf9871204d9f699e7b47817960c6d0') in 0.002940 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.527 seconds
-Refreshing native plugins compatible for Editor in 8.04 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.214 seconds
-Domain Reload Profiling: 2741ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (338ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2215ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (977ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (761ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 13.54 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 7011.
-Memory consumption went from 243.6 MB to 230.2 MB.
-Total: 8.817600 ms (FindLiveObjects: 0.514800 ms CreateObjectMapping: 1.014800 ms MarkObjects: 4.193200 ms  DeleteObjects: 3.093400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.511 seconds
-Refreshing native plugins compatible for Editor in 7.71 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.846 seconds
-Domain Reload Profiling: 2356ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (256ms)
-		LoadAssemblies (322ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1847ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (763ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (576ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 10.10 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 7014.
-Memory consumption went from 243.6 MB to 230.2 MB.
-Total: 16.015300 ms (FindLiveObjects: 0.819500 ms CreateObjectMapping: 3.895900 ms MarkObjects: 5.600500 ms  DeleteObjects: 5.698300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.524 seconds
-Refreshing native plugins compatible for Editor in 7.88 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.212 seconds
-Domain Reload Profiling: 2736ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (335ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2214ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (928ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (697ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 15.12 ms, found 12 plugins.
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.52 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 7017.
-Memory consumption went from 243.6 MB to 230.2 MB.
-Total: 11.855900 ms (FindLiveObjects: 0.970300 ms CreateObjectMapping: 2.761900 ms MarkObjects: 5.024700 ms  DeleteObjects: 3.097800 ms)
+Unloading 5545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.5 MB). Loaded Objects now: 6141.
+Memory consumption went from 188.9 MB to 187.4 MB.
+Total: 8.201700 ms (FindLiveObjects: 1.020700 ms CreateObjectMapping: 0.972700 ms MarkObjects: 5.476800 ms  DeleteObjects: 0.730300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.516 seconds
-Refreshing native plugins compatible for Editor in 7.62 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.671 seconds
+Refreshing native plugins compatible for Editor in 14.89 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.358 seconds
-Domain Reload Profiling: 2874ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  1.881 seconds
+Domain Reload Profiling: 2551ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (264ms)
-		LoadAssemblies (327ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (438ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2359ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1882ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1014ms)
+		SetupLoadedEditorAssemblies (790ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
+			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (154ms)
-			ProcessInitializeOnLoadAttributes (754ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 15.89 ms, found 12 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.87 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 7020.
-Memory consumption went from 243.6 MB to 230.2 MB.
-Total: 9.997200 ms (FindLiveObjects: 1.577600 ms CreateObjectMapping: 0.864600 ms MarkObjects: 3.470400 ms  DeleteObjects: 4.083500 ms)
+Unloading 5545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.5 MB). Loaded Objects now: 6144.
+Memory consumption went from 188.9 MB to 187.4 MB.
+Total: 12.728900 ms (FindLiveObjects: 1.750400 ms CreateObjectMapping: 1.265800 ms MarkObjects: 8.349400 ms  DeleteObjects: 1.361800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.505 seconds
-Refreshing native plugins compatible for Editor in 7.58 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 10.36 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.223 seconds
-Domain Reload Profiling: 2728ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in  1.622 seconds
+Domain Reload Profiling: 2274ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (251ms)
-		LoadAssemblies (315ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2224ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1622ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (943ms)
+		SetupLoadedEditorAssemblies (654ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (188ms)
-			ProcessInitializeOnLoadAttributes (658ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 12.99 ms, found 12 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.33 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 211 unused Assets / (13.4 MB). Loaded Objects now: 7023.
-Memory consumption went from 243.6 MB to 230.2 MB.
-Total: 21.505100 ms (FindLiveObjects: 0.825500 ms CreateObjectMapping: 2.453000 ms MarkObjects: 8.468500 ms  DeleteObjects: 9.757000 ms)
+Unloading 5545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.5 MB). Loaded Objects now: 6147.
+Memory consumption went from 188.9 MB to 187.4 MB.
+Total: 7.469200 ms (FindLiveObjects: 0.932100 ms CreateObjectMapping: 0.578900 ms MarkObjects: 4.404500 ms  DeleteObjects: 1.552100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 323.122448 seconds.
+  path: Assets/Scenes/0_Scene.unity
+  artifactKey: Guid(9ccfea8a8475286429c69b5211fdf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/0_Scene.unity using Guid(9ccfea8a8475286429c69b5211fdf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a250be509f729eeac60dca4989f83c7') in 0.002381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.731876 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(83ca484c0e372144385539e24ea3bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(83ca484c0e372144385539e24ea3bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ee8e9029f1432b992353dbf3e6a15c') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

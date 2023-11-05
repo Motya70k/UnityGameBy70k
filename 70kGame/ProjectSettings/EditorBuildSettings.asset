@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SandalStudio/Snow FX/Demo Scene/0_Scene.unity
+    path: Assets/Scenes/0_Scene.unity
     guid: 9ccfea8a8475286429c69b5211fdf6b2
   - enabled: 1
     path: Assets/Scenes/_1Scene.unity
