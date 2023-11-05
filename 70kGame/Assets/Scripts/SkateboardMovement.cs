@@ -6,15 +6,15 @@ using UnityEngine;
 
 public class SkateboardMovement : MonoBehaviour
 {
-    public float speed = 10f;
+    public int speed;
     public float rotationSpeed = 100f;
 
     private void Update()
     {
    
         // Перемещение скейтборда вперед/назад
-        float moveForward = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        transform.Translate(Vector3.forward * moveForward);
+        
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
         // Поворот скейтборда влево/вправо
         float rotationY = Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
