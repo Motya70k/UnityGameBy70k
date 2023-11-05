@@ -683,9 +683,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -10.3333845, y: 23.805588, z: -42.706394}
+    m_Target: {x: 5.5414424, y: -1.9454463, z: 58.13202}
     speed: 2
-    m_Value: {x: -10.3333845, y: 23.805588, z: -42.706394}
+    m_Value: {x: 5.5414424, y: -1.9454463, z: 58.13202}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -731,13 +731,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08410507, y: -0.045669578, z: 0.004214887, w: 0.9953623}
+    m_Target: {x: -0.06766029, y: -0.059566583, z: 0.0037240346, w: -0.9959299}
     speed: 2
-    m_Value: {x: 0.0856013, y: -0.04566496, z: 0.0042835404, w: 0.99527323}
+    m_Value: {x: -0.06765407, y: -0.061059915, z: 0.00382549, w: -0.9958314}
   m_Size:
-    m_Target: 1.7320508
+    m_Target: 35.35534
     speed: 2
-    m_Value: 1.7320508
+    m_Value: 35.35534
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -755,7 +755,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.1276803, y: -0.37197018, z: 0.051959198, w: 0.9177955}
+  m_LastSceneViewRotation: {x: 0.50112057, y: -0.4776824, z: 0.3984615, w: 0.6015698}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -799,9 +799,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 76f50000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2e8afdff2a8dfdffeefafdff22fbfdff8efdfdffecfffdff0a45feff7647feff004afeff524dfeff8654feffe256feffba59feff5c5cfeff465efeff
+      m_ExpandedIDs: c6a3fbff1427fcffa62ffcff365cfdff3a5cfdff3e5cfdff187dfdff02a7fdff3ca7fdff5ca7fdff52cdfdffa4dcfdff00f5fdff3239feff9e3bfeff465dfeff465efeffe2e60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -968,7 +968,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -976,30 +976,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\UnityGameBy70k\70kGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 5}
-    m_SelectedIDs: 2a070000
-    m_LastClickedID: 1834
-    m_ExpandedIDs: 0000000002060000a207000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1e070000
+    m_LastClickedID: 1822
+    m_ExpandedIDs: 000000000206000082060000a20700003208000054020100640201007c0201004a3b01004e3b0100523b0100623b010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Models
-      m_OriginalName: Models
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1718
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
