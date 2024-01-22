@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16439442, g: 0.17889316, b: 0.18883741, a: 1}
+  m_IndirectSpecularColor: {r: 0.1643794, g: 0.17888676, b: 0.1888431, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1977,6 +1977,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4342155126682322284, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 858808c5d3541b9458a4ab09fc4c3660, type: 2}
     - target: {fileID: 4342155126682322284, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -11273,6 +11277,10 @@ PrefabInstance:
       propertyPath: _speed
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8497267811566244380, guid: b4cc864fc9222d34a9a5d653bb60f3fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb69509170309ad4ab97ad77b43d643c, type: 2}
     - target: {fileID: 9141492457921646238, guid: b4cc864fc9222d34a9a5d653bb60f3fa, type: 3}
       propertyPath: m_TagString
       value: obstacle
@@ -11371,6 +11379,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4342155126682322284, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bc1fefe019c82304a93b8be5a51833fa, type: 2}
     - target: {fileID: 4728655692153339034, guid: 61c99d96f7d95c74aa9f5257ac9034dd, type: 3}
       propertyPath: _speed
       value: 20
@@ -11495,6 +11507,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 113605514669688059, guid: e40620412a8f53448b756c6ef4e157db, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fce37c4401121654a88c69f216c7821e, type: 2}
     - target: {fileID: 196571944001144212, guid: e40620412a8f53448b756c6ef4e157db, type: 3}
       propertyPath: m_TagString
       value: obstacle

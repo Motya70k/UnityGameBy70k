@@ -8,7 +8,7 @@ public class LosePanel : MonoBehaviour
 {
     public void RestartLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void LoadMenuScene()

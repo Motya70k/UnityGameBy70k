@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SnowPlane
+  m_Name: SnowPlane 4
   m_Shader: {fileID: 4800000, guid: b9f97aff19df7fd4d9f22b63054b9013, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -88,8 +88,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BottomColor: {r: 0.3660378, g: 0.35291567, b: 0.35291567, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BottomColor: {r: 0.7584905, g: 0.5214752, b: 0.15885368, a: 1}
+    - _Color: {r: 0.4641509, g: 0.38853532, b: 0.118227065, a: 1}
     - _DrawPosition: {r: -1, g: -1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

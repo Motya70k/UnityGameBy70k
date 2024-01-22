@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.Burst.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -15,19 +16,23 @@ public class SkateboardMovement : MonoBehaviour
     public GameObject losePanel;
     public TextMeshProUGUI coinsText;
 
+    private void Awake()
+    {
+        coinsText.text = PlayerPrefs.GetInt("Coin").ToString();
+    }
     private void Start()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
     }
 
     private void Update()
     {
    
-        // Перемещение скейтборда вперед/назад
-        float moveForward = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        transform.Translate(Vector3.forward * moveForward);
+        // Перемещение сноуборда вперед/назад
+        //float moveForward = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
-        // Поворот скейтборда влево/вправо
+        // Поворот сноуборда влево/вправо
         float rotationY = Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime;
         transform.Rotate(0f, rotationY, 0f);
     }
@@ -36,20 +41,15 @@ public class SkateboardMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "Coin")
         {
-            coins++;
-            coinsText.text = coins.ToString();
+            coins = PlayerPrefs.GetInt("Coin");
+            PlayerPrefs.SetInt("Coin", coins + 1);
+            coinsText.text = (coins + 1).ToString();
             Destroy(other.gameObject);
         }
         if (other.gameObject.tag == "obstacle")
         {
-            losePanel.SetActive(true);
-            Time.timeScale = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
-
-    /*private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        
-    }*/
 }
 

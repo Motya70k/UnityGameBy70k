@@ -8,6 +8,11 @@ public class Mapsmenu : MonoBehaviour
     // Start is called before the first frame update
     public void PlayGame()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void loadMapsMenu()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 }

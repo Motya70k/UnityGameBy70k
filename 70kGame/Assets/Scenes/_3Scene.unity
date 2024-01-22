@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16439442, g: 0.17889316, b: 0.18883741, a: 1}
+  m_IndirectSpecularColor: {r: 0.1643794, g: 0.17888676, b: 0.1888431, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins:
+  - {fileID: 7829300311807388007, guid: f52467c2fbe288f4db086846e9017efb, type: 3}
   - {fileID: 7829300311807388007, guid: f52467c2fbe288f4db086846e9017efb, type: 3}
   - {fileID: 7829300311807388007, guid: f52467c2fbe288f4db086846e9017efb, type: 3}
   spawnPoints:
@@ -1187,6 +1188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins:
+  - {fileID: 7829300311807388007, guid: f52467c2fbe288f4db086846e9017efb, type: 3}
   - {fileID: 7829300311807388007, guid: f52467c2fbe288f4db086846e9017efb, type: 3}
   - {fileID: 7829300311807388007, guid: f52467c2fbe288f4db086846e9017efb, type: 3}
   spawnPoints:
@@ -2539,6 +2541,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1495233911}
   scoreText: {fileID: 309694648}
+  score: 0
+  highScore: 0
 --- !u!114 &309694648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13281,6 +13285,10 @@ PrefabInstance:
       propertyPath: _speed
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8497267811566244380, guid: b4cc864fc9222d34a9a5d653bb60f3fa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d6da1c0493899e4aad98e109c8a825b, type: 2}
     - target: {fileID: 9141492457921646238, guid: b4cc864fc9222d34a9a5d653bb60f3fa, type: 3}
       propertyPath: m_TagString
       value: obstacle
@@ -13539,6 +13547,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 113605514669688059, guid: e40620412a8f53448b756c6ef4e157db, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d72b60166bcee948a8637001e516722, type: 2}
     - target: {fileID: 196571944001144212, guid: e40620412a8f53448b756c6ef4e157db, type: 3}
       propertyPath: m_TagString
       value: obstacle
