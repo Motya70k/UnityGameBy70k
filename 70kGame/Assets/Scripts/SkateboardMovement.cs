@@ -15,6 +15,9 @@ public class SkateboardMovement : MonoBehaviour
     public int coins;
     public GameObject losePanel;
     public TextMeshProUGUI coinsText;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+    public GameObject player;
 
     private void Awake()
     {
@@ -22,6 +25,7 @@ public class SkateboardMovement : MonoBehaviour
     }
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         //Time.timeScale = 1;
     }
 
@@ -45,6 +49,7 @@ public class SkateboardMovement : MonoBehaviour
             PlayerPrefs.SetInt("Coin", coins + 1);
             coinsText.text = (coins + 1).ToString();
             Destroy(other.gameObject);
+            audioSource.PlayOneShot(audioClip);
         }
         if (other.gameObject.tag == "obstacle")
         {
